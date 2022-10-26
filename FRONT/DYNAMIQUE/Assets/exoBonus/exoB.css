@@ -1,0 +1,40 @@
+#bout1,#bout2,#bout3,#bout4{
+	display: inline-block;
+	background-color: #b28ce9;
+	border-radius: 10px;
+	border: 4px double #cccccc;
+	color: #eeeeee;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 30px;
+	
+}
+#bout1:hover {
+	background-color: rgb(14, 35, 131);
+}
+#bout2:hover {
+	background-color: rgb(14, 35, 131);
+}
+#bout3:hover {
+	background-color: rgb(14, 35, 131);
+}
+#bout4:hover {
+	background-color: rgb(14, 35, 131);
+}
+
+.s1,.s2,.s3,.s4{
+	display: flex;
+	flex-flow: column wrap;
+	align-content:space-around;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 150%;
+}
+
+

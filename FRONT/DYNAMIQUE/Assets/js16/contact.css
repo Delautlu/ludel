@@ -1,0 +1,28 @@
+#formContact{
+	background-color: azure;
+	color:black;
+	
+}
+
+h2{
+	color:darkred;
+	font-family:Arial;
+	font-size:medium;
+	font-weight:bolder;
+}
+
+label{
+	font-weight:bolder;
+}
+
+h3{
+	font-size: smaller;
+}
+
+/*************************
+*******Alertes form*******
+*************************/
+
+#alert_soci,#alert_percont,#alert_cdpo,#alert_vil,#alert_em{
+	color: red;
+}

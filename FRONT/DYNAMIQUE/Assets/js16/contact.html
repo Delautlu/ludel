@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>contact</title>
+	<link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+	
+	<section>
+        <article>
+        <h1>Vos coordonnées :</h1>
+	</section>
+        
+    <form action="http://bienvu.net/script.php" method="post" id="formContact"> 
+    
+		<h2>*ces zones sont obligatoires pour envoyer le formulaire.</h2>  
+  
+		<div class="champs">
+    
+			<label for="societe">Société :</label>
+			<input type="text" name="societe" id="societe">*
+			<span id="alert_soci"></span>
+    	</div>
+	<br>
+    	<div class="champs">
+			<label for="contactclt">Personne à contacter :</label>
+			<input type="text" name="contactclt" id="contactclt">*
+			<span id="alert_percont"></span>
+		</div>
+    	<div class="champs"> 
+			<label for="adresse">Adresse de l'entreprise :</label>
+			<input type="text" name="adresse" id="adresse">
+		</div>
+		<div class="champs">
+			<label for="code_postal">Code postal:</label>
+			<input type="text" name="code postal" id="code_postal"*>
+			<span id="alert_cdpo"></span>
+		</div>
+		<div class="champs">  
+			<label for="ville">Ville :</label>
+			<input type="text" name="ville" id="ville" >*
+			<span id="alert_vil"></span>
+		</div>
+		<div class="champs">    
+			<label for="email">Email :</label>
+			<input type="text" name="email" id="email"*>
+			<span id="alert_em"></span>
+		</div>
+		<div class="champs">
+			<label for="telephone">Téléphone :</label>
+			<input type="text" name="telephone" id="telephone">
+		</div>
+		<div class="champs">
+			<h3>Sélectionnez l'environnement technique du projet :</h3>
+			<textarea type="text" cols="30" id="text"></textarea>
+		</div>
+		<br><br>
+
+		<select id="projet">
+				<option value="Choisissez"selected="true">Choisissez</option>
+				<option value="Access">Access</option>
+				<option value="Java">Java</option>
+				<option value="Delphi">Delphi</option>
+				<option value="Windev">Windev</option>
+				<option value="Visual Basic">Visual Basic</option>
+				<option value="Power Builder">Power Builder</option>
+				<option value="Internet">Internet</option>
+				<option value="Intranet">Intranet</option>
+				<option value="Windows NT">Windows NT</option>
+				<option value="Unix">Unix</option>
+				<option value="SQL Server">SQL Server</option>
+				<option value="Oracle">Oracle</option>
+				<option value="Autres...">Autres...</option>	
+		</select>
+		<br><br><br>
+			<input type="submit" name="but1" id="bt1" value="Envoyer" />
+			<input type="reset" name="but2" id="bt2" value="Effacer" />		
+    </form> 
+<script src="contact1.js"></script>
+</body>
+</html>
